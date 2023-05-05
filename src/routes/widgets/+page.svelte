@@ -1,8 +1,8 @@
 <script>
-    import HomePage from "/src/Pages/HomePage.svelte"
+    import Widgets from "/src/Pages/Widgets.svelte"
     import PageContainer from "/src/Layout/PageContainer.svelte"
 </script>
 
 <PageContainer>
-    <HomePage />
+    <Widgets />
 </PageContainer>
