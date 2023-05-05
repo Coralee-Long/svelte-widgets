@@ -1,5 +1,18 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.15ch;
+  font-weight: 500;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background: rgb(150, 201, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(150, 201, 255, 1) 0%,
+    rgba(255, 193, 205, 1) 50%,
+    rgba(166, 116, 209, 1) 100%
+  );
 }

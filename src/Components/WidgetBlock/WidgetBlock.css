@@ -1,0 +1,38 @@
+.widget-block {
+  width: 400px;
+  height: 650px;
+  padding: 2rem;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Glass Effect */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.widget-heading {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.widget-description {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.widget-image {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid white;
+}
+
+.widget-button {
+  padding: 1rem;
+  margin: 1rem;
+}
